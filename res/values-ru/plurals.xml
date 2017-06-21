@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="album_numphotos">
+        <item quantity="other">%,d фотографий</item>
+        <item quantity="one">%,d фотография</item>
+        <item quantity="few">%,d фотографии</item>
+    </plurals>
+    <plurals name="album_video_count">
+        <item quantity="other">%,d видео</item>
+        <item quantity="one">%,d видео</item>
+        <item quantity="few">%,d видео</item>
+    </plurals>
+    <plurals name="albums">
+        <item quantity="other">%,d альбомов</item>
+        <item quantity="one">%,d альбом</item>
+        <item quantity="few">%,d альбома</item>
+    </plurals>
+    <plurals name="balance_votes">
+        <item quantity="other">%,d голосов</item>
+        <item quantity="one">%,d голос</item>
+        <item quantity="few">%,d голоса</item>
+    </plurals>
+    <plurals name="balance_votes_simple">
+        <item quantity="other"> голосов</item>
+        <item quantity="one"> голос</item>
+        <item quantity="few"> голоса</item>
+    </plurals>
+    <plurals name="birthday_age">
+        <item quantity="other">%,d лет</item>
+        <item quantity="one">%,d год</item>
+        <item quantity="few">%,d года</item>
+    </plurals>
+    <plurals name="birthday_today">
+        <item quantity="other">исполнилось %,d лет</item>
+        <item quantity="one">исполнился %,d год</item>
+        <item quantity="few">исполнилось %,d года</item>
+    </plurals>
+    <plurals name="chat_members">
+        <item quantity="other">%,d участников</item>
+        <item quantity="one">%,d участник</item>
+        <item quantity="few">%,d участника</item>
+    </plurals>
+    <plurals name="comment_likes">
+        <item quantity="other">Понравилось %,d людям</item>
+        <item quantity="one">Понравилось %,d человеку</item>
+        <item quantity="few">Понравилось %,d людям</item>
+    </plurals>
+    <plurals name="date_ago_mins">
+        <item quantity="other">%,d минут назад</item>
+        <item quantity="one">%,d минуту назад</item>
+        <item quantity="few">%,d минуты назад</item>
+    </plurals>
+    <plurals name="date_ago_secs">
+        <item quantity="other">%,d секунд назад</item>
+        <item quantity="one">%,d секунду назад</item>
+        <item quantity="few">%,d секунды назад</item>
+    </plurals>
+    <plurals name="events">
+        <item quantity="other">%,d встреч</item>
+        <item quantity="one">%,d встреча</item>
+        <item quantity="few">%,d встречи</item>
+    </plurals>
+    <plurals name="friends_mutual">
+        <item quantity="other">%,d общих</item>
+        <item quantity="one">%,d общий</item>
+        <item quantity="few">%,d общих</item>
+    </plurals>
+    <plurals name="friends_tab_all">
+        <item quantity="other">%,d друзей</item>
+        <item quantity="one">%,d друг</item>
+        <item quantity="few">%,d друга</item>
+    </plurals>
+    <plurals name="friends_tab_online">
+        <item quantity="other">%,d в сети</item>
+        <item quantity="one">%,d в сети</item>
+        <item quantity="few">%,d в сети</item>
+    </plurals>
+    <plurals name="friends_tab_requests">
+        <item quantity="other">%,d заявок</item>
+        <item quantity="one">%,d заявка</item>
+        <item quantity="few">%,d заявки</item>
+    </plurals>
+    <plurals name="games_friends">
+        <item quantity="other">Играют %,d друзей</item>
+        <item quantity="one">Играет %,d друг</item>
+        <item quantity="few">Играет %,d друга</item>
+    </plurals>
+    <plurals name="games_friends_played">
+        <item quantity="other">Играет %,d Ваших друзей</item>
+        <item quantity="one">Играет %,d Ваш друг</item>
+        <item quantity="few">Играет %,d Ваших друга</item>
+    </plurals>
+    <plurals name="games_invites">
+        <item quantity="other">%,d приглашений</item>
+        <item quantity="one">%,d приглашение</item>
+        <item quantity="few">%,d приглашения</item>
+    </plurals>
+    <plurals name="games_level">
+        <item quantity="other">%,d уровень</item>
+        <item quantity="one">%,d уровень</item>
+    </plurals>
+    <plurals name="games_points">
+        <item quantity="other">%,d очков</item>
+        <item quantity="one">%,d очко</item>
+        <item quantity="few">%,d очка</item>
+    </plurals>
+    <plurals name="games_requests">
+        <item quantity="other">%,d новых запросов</item>
+        <item quantity="one">%,d новый запрос</item>
+        <item quantity="few">%,d новых запроса</item>
+    </plurals>
+    <plurals name="games_show_more_reqs">
+        <item quantity="other">Показать ещё %,d запросов</item>
+        <item quantity="one">Показать ещё %,d запрос</item>
+        <item quantity="few">Показать ещё %,d запроса</item>
+    </plurals>
+    <plurals name="gifts">
+        <item quantity="other">%,d подарков</item>
+        <item quantity="one">%,d подарок</item>
+        <item quantity="few">%,d подарка</item>
+    </plurals>
+    <plurals name="gifts_remains">
+        <item quantity="other">осталось %,d подарков</item>
+        <item quantity="one">остался %,d подарок</item>
+        <item quantity="few">осталось %,d подарка</item>
+    </plurals>
+    <plurals name="good_comments">
+        <item quantity="other">%,d комментариев</item>
+        <item quantity="one">%,d комментарий</item>
+        <item quantity="few">%,d комментария</item>
+    </plurals>
+    <plurals name="goods_count">
+        <item quantity="other">%,d товаров</item>
+        <item quantity="one">%,d товар</item>
+        <item quantity="few">%,d товара</item>
+    </plurals>
+    <plurals name="group_invites">
+        <item quantity="other">%,d приглашений</item>
+        <item quantity="zero">Нет приглашений</item>
+        <item quantity="one">%,d приглашение</item>
+        <item quantity="few">%,d приглашения</item>
+    </plurals>
+    <plurals name="group_members">
+        <item quantity="other">%,d участников</item>
+        <item quantity="one">%,d участник</item>
+        <item quantity="few">%,d участника</item>
+    </plurals>
+    <plurals name="groups">
+        <item quantity="other">%,d сообществ</item>
+        <item quantity="one">%,d сообщество</item>
+        <item quantity="few">%,d сообщества</item>
+    </plurals>
+    <plurals name="groups_followers">
+        <item quantity="other">%s подписчиков</item>
+        <item quantity="one">%s подписчик</item>
+        <item quantity="few">%s подписчика</item>
+    </plurals>
+    <plurals name="like_notification_multiple">
+        <item quantity="other">%,d людям</item>
+        <item quantity="one">%,d человеку</item>
+        <item quantity="few">%,d людям</item>
+    </plurals>
+    <plurals name="like_notification_stacked">
+        <item quantity="other">%,d новых уведомлений</item>
+        <item quantity="one">%,d новое уведомление</item>
+        <item quantity="few">%,d новых уведомления</item>
+    </plurals>
+    <plurals name="messages">
+        <item quantity="other">сообщений</item>
+        <item quantity="one">сообщение</item>
+        <item quantity="few">сообщения</item>
+    </plurals>
+    <plurals name="ncomments_last">
+        <item quantity="other">Последний из %,d комментариев</item>
+        <item quantity="one">Последний из %,d комментария</item>
+        <item quantity="few">Последний из %,d комментариев</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">Показать %,d новых записей</item>
+        <item quantity="one">Показать %,d новую запись</item>
+        <item quantity="few">Показать %,d новых записи</item>
+    </plurals>
+    <plurals name="news_added_photo_f">
+        <item quantity="other">добавила %,d фотографий</item>
+        <item quantity="one">добавила %,d фотографию</item>
+        <item quantity="few">добавила %,d фотографии</item>
+    </plurals>
+    <plurals name="news_added_photo_m">
+        <item quantity="other">добавил %,d фотографий</item>
+        <item quantity="one">добавил %,d фотографию</item>
+        <item quantity="few">добавил %,d фотографии</item>
+    </plurals>
+    <plurals name="news_tagged_photo_f">
+        <item quantity="other">была отмечена на %,d фотографиях</item>
+        <item quantity="one">была отмечена на %,d фотографии</item>
+        <item quantity="few">была отмечена на %,d фотографиях</item>
+    </plurals>
+    <plurals name="news_tagged_photo_m">
+        <item quantity="other">был отмечен на %,d фотографиях</item>
+        <item quantity="one">был отмечен на %,d фотографии</item>
+        <item quantity="few">был отмечен на %,d фотографиях</item>
+    </plurals>
+    <plurals name="ntf_x_more_users">
+        <item quantity="other">и ещё &lt;b>%,d&lt;/b> человек</item>
+        <item quantity="one">и ещё &lt;b>%,d&lt;/b> человек</item>
+        <item quantity="few">и ещё &lt;b>%,d&lt;/b> человека</item>
+    </plurals>
+    <plurals name="num_attach_audio">
+        <item quantity="other">%,d аудиозаписей</item>
+        <item quantity="one">Аудиозапись</item>
+        <item quantity="few">%,d аудиозаписи</item>
+    </plurals>
+    <plurals name="num_attach_document">
+        <item quantity="other">%,d документов</item>
+        <item quantity="one">Документ</item>
+        <item quantity="few">%,d документа</item>
+    </plurals>
+    <plurals name="num_attach_fwd_message">
+        <item quantity="other">%,d пересланных сообщений</item>
+        <item quantity="one">%,d пересланное сообщение</item>
+        <item quantity="few">%,d пересланных сообщения</item>
+    </plurals>
+    <plurals name="num_attach_photo">
+        <item quantity="other">%,d фотографий</item>
+        <item quantity="one">Фотография</item>
+        <item quantity="few">%,d фотографии</item>
+    </plurals>
+    <plurals name="num_attach_video">
+        <item quantity="other">%,d видеозаписей</item>
+        <item quantity="one">Видеозапись</item>
+        <item quantity="few">%,d видеозаписи</item>
+    </plurals>
+    <plurals name="num_mutual_friends_req">
+        <item quantity="other">%,d общих друзей</item>
+        <item quantity="one">%,d общий друг</item>
+        <item quantity="few">%,d общих друга</item>
+    </plurals>
+    <plurals name="num_new_messages">
+        <item quantity="other">%,d новых сообщений.</item>
+        <item quantity="one">%,d новое сообщение.</item>
+        <item quantity="few">%,d новых сообщения.</item>
+    </plurals>
+    <plurals name="num_poll_votes">
+        <item quantity="other">%,d голосов</item>
+        <item quantity="one">%,d голос</item>
+        <item quantity="few">%,d голоса</item>
+    </plurals>
+    <plurals name="people_found">
+        <item quantity="other">Найдено %,d человек</item>
+        <item quantity="one">Найден %,d человек</item>
+        <item quantity="few">Найдено %,d человека</item>
+    </plurals>
+    <plurals name="photos">
+        <item quantity="other">%,d фотографий</item>
+        <item quantity="one">%,d фотография</item>
+        <item quantity="few">%,d фотографии</item>
+    </plurals>
+    <plurals name="photos_tagged_short_f">
+        <item quantity="other">отмечена на %,d фотографиях</item>
+        <item quantity="one">отмечена на %,d фотографии</item>
+        <item quantity="few">отмечена на %,d фотографиях</item>
+    </plurals>
+    <plurals name="photos_tagged_short_m">
+        <item quantity="other">отмечен на %,d фотографиях</item>
+        <item quantity="one">отмечен на %,d фотографии</item>
+        <item quantity="few">отмечен на %,d фотографиях</item>
+    </plurals>
+    <plurals name="picker_share_photo_plural">
+        <item quantity="other">Поделиться фотографиями</item>
+        <item quantity="one">Поделиться фотографией</item>
+        <item quantity="many">Поделиться фотографиями</item>
+    </plurals>
+    <plurals name="postponed_posts">
+        <item quantity="other">/m%,d/e отложенных записей</item>
+        <item quantity="one">/m%,d/e отложенная запись</item>
+        <item quantity="few">/m%,d/e отложенных записи</item>
+    </plurals>
+    <plurals name="posts">
+        <item quantity="other">%,d записей</item>
+        <item quantity="one">%,d запись</item>
+        <item quantity="few">%,d записи</item>
+    </plurals>
+    <plurals name="profile_age_years">
+        <item quantity="other">%,d лет</item>
+        <item quantity="one">%,d год</item>
+        <item quantity="few">%,d года</item>
+    </plurals>
+    <plurals name="profile_audios">
+        <item quantity="other">Аудио</item>
+        <item quantity="one">Аудио</item>
+        <item quantity="few">Аудио</item>
+    </plurals>
+    <plurals name="profile_docs">
+        <item quantity="other">документов</item>
+        <item quantity="one">документ</item>
+        <item quantity="few">документа</item>
+    </plurals>
+    <plurals name="profile_followers">
+        <item quantity="other">/m%,d/e подписчиков</item>
+        <item quantity="one">/m%,d/e подписчик</item>
+        <item quantity="few">/m%,d/e подписчика</item>
+    </plurals>
+    <plurals name="profile_friends">
+        <item quantity="other">/m%,d/e друзей</item>
+        <item quantity="one">/m%,d/e друг</item>
+        <item quantity="few">/m%,d/e друга</item>
+    </plurals>
+    <plurals name="profile_friends_members">
+        <item quantity="other">В сообществе /m%,d/e друзей</item>
+        <item quantity="one">В сообществе /m%,d/e друг</item>
+        <item quantity="few">В сообществе /m%,d/e друга</item>
+    </plurals>
+    <plurals name="profile_groups">
+        <item quantity="other">Групп</item>
+        <item quantity="one">Группа</item>
+        <item quantity="few">Группы</item>
+    </plurals>
+    <plurals name="profile_members">
+        <item quantity="other">/m%,d/e участников</item>
+        <item quantity="one">/m%,d/e участник</item>
+        <item quantity="few">/m%,d/e участника</item>
+    </plurals>
+    <plurals name="profile_mutual_friends">
+        <item quantity="other">/m%,d/e общих</item>
+        <item quantity="one">/m%,d/e общий</item>
+        <item quantity="few">/m%,d/e общих</item>
+    </plurals>
+    <plurals name="profile_photos">
+        <item quantity="other">Фото</item>
+        <item quantity="one">Фото</item>
+        <item quantity="few">Фото</item>
+    </plurals>
+    <plurals name="profile_topics">
+        <item quantity="other">обсуждений</item>
+        <item quantity="one">обсуждение</item>
+        <item quantity="few">обсуждения</item>
+    </plurals>
+    <plurals name="profile_videos">
+        <item quantity="other">Видео</item>
+        <item quantity="one">Видео</item>
+        <item quantity="few">Видео</item>
+    </plurals>
+    <plurals name="qty_msgs">
+        <item quantity="other">%,d сообщений</item>
+        <item quantity="one">%,d сообщение</item>
+        <item quantity="few">%,d сообщения</item>
+    </plurals>
+    <plurals name="show_more_notifications">
+        <item quantity="other">Показать ещё %,d событий</item>
+        <item quantity="one">Показать ещё %,d событие</item>
+        <item quantity="few">Показать ещё %,d события</item>
+    </plurals>
+    <plurals name="suggested_posts">
+        <item quantity="other">/m%,d/e предлагаемых новостей</item>
+        <item quantity="one">/m%,d/e предлагаемую новость</item>
+        <item quantity="few">/m%,d/e предлагаемых новости</item>
+    </plurals>
+    <plurals name="suggested_posts_by_me">
+        <item quantity="other">/m%,d/e предложенных Вами новостей</item>
+        <item quantity="one">/m%,d/e предложенная Вами новость</item>
+        <item quantity="few">/m%,d/e предложенных Вами новости</item>
+    </plurals>
+    <plurals name="topic_posts">
+        <item quantity="other">%,d сообщений</item>
+        <item quantity="one">%,d сообщение</item>
+        <item quantity="few">%,d сообщения</item>
+    </plurals>
+    <plurals name="typing_more">
+        <item quantity="other">%1$s и ещё %2$d человека</item>
+        <item quantity="one">%1$s и ещё %2$d человек</item>
+        <item quantity="few">%1$s и ещё %2$d человека</item>
+    </plurals>
+    <plurals name="video_views">
+        <item quantity="other">%,d просмотров</item>
+        <item quantity="one">%,d просмотр</item>
+        <item quantity="few">%,d просмотра</item>
+    </plurals>
+    <plurals name="wallview_comments">
+        <item quantity="other">Показать ещё %,d комментариев</item>
+        <item quantity="one">Показать ещё %,d комментарий</item>
+        <item quantity="few">Показать ещё %,d комментария</item>
+    </plurals>
+    <plurals name="wallview_likes">
+        <item quantity="other">Понравилось %,d людям</item>
+        <item quantity="one">Понравилось %,d человеку</item>
+        <item quantity="few">Понравилось %,d людям</item>
+    </plurals>
+    <plurals name="wallview_likes_me">
+        <item quantity="other">Понравилось Вам и %,d людям</item>
+        <item quantity="one">Понравилось Вам и %,d человеку</item>
+        <item quantity="few">Понравилось Вам и %,d людям</item>
+    </plurals>
+    <plurals name="x_stickers">
+        <item quantity="other">%,d стикеров</item>
+        <item quantity="one">%,d стикер</item>
+        <item quantity="few">%,d стикера</item>
+    </plurals>
+</resources>

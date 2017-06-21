@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MessageRoot.Out">
+    <include layout="@layout/message_state_block" />
+    <com.vkcoffee.android.ui.MessageLinearLayout style="@style/MessageWrap.Out">
+        <com.vkcoffee.android.ui.CorrectlyMeasuringTextView style="@style/MessageText" />
+        <com.vkcoffee.android.ui.FlowLayout style="@style/MessageFlow" />
+    </com.vkcoffee.android.ui.MessageLinearLayout>
+    <TextView style="@style/MessageTime.Out" />
+</LinearLayout>

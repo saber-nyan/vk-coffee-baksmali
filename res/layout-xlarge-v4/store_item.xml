@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vkcoffee.android.ui.ForegroundRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" app:foreground="@drawable/rounded_list_selector"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="188.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.vkcoffee.android.ui.TextView android:textSize="16.0dip" android:textColor="#ff2e3033" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="7.5dip" android:singleLine="true" android:layout_toLeftOf="@id/sticker_btn_wrap" android:layout_below="@id/photo" android:layout_alignParentLeft="true" app:typeface="Medium" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff828385" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="-1.0dip" android:layout_marginBottom="9.5dip" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_below="@id/title" android:layout_alignRight="@id/title" android:layout_alignParentLeft="true" />
+    <FrameLayout android:id="@id/sticker_btn_wrap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/photo" android:layout_alignParentRight="true">
+        <com.vkcoffee.android.ui.TextView android:id="@id/sticker_button" app:typeface="Medium" style="@style/StickerButton" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/sticker_progress" android:layout_width="20.0dip" android:layout_height="20.0dip" android:max="100" android:indeterminate="false" android:indeterminateOnly="false" />
+        <ImageView android:layout_gravity="center" android:id="@id/sticker_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_recommendation_added" />
+        <ImageView android:layout_gravity="center" android:id="@id/sticker_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chats_error" />
+    </FrameLayout>
+</com.vkcoffee.android.ui.ForegroundRelativeLayout>

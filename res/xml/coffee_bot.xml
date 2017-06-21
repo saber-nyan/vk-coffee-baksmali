@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Настройки автостатуса">
+        <Preference android:title="Установить статус" android:key="setStatus" android:summary="" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Включить автостатус" android:key="statusPref" android:summary="" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Строгий режим" android:key="dontSleepStatusSNL" android:summary="Запрещает устройству 'усыплять' процесс, в итоге автостатус работает беспрерывно. Однако, по понятным причинам, при этом повышается расход батареи" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Уведомление о работе" android:key="notificationStatusSNL" android:summary="Позволяет знать, что процесс работает исправно, а так же удобно выключить его" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Настройки Crazy Typing">
+        <Preference android:title="test label" android:key="dialogsCrazy" android:summary="" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Включить Crazy Typing" android:key="crazyPref" android:summary="Функция постоянно отправляет статус в фоновом режиме, о том, что Вы печатаете сообщение относительно выбранных диалогов. Предназначена для вызова бешенства Ваших собеседников :)" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Строгий режим" android:key="dontSleepCrazySNL" android:summary="Запрещает устройству 'усыплять' процесс, в итоге Crazy Typing работает беспрерывно. Однако, по понятным причинам, при этом повышается расход батареи" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Уведомление о работе" android:key="notificationCrazySNL" android:summary="Позволяет знать, что процесс работает исправно, а так же удобно выключить его" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

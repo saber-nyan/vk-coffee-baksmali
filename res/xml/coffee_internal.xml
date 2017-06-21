@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Block 0" android:key="keyBlock1">
+        <Preference android:key="key01" />
+        <Preference android:key="key02" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Block 1" android:key="keyBlock1">
+        <Preference android:key="key11" />
+        <Preference android:key="key12" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Block 2" android:key="keyBlock2">
+        <Preference android:key="key21" />
+        <Preference android:key="key22" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Block 3" android:key="keyBlock3">
+        <Preference android:key="key31" />
+        <Preference android:key="key32" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Block 4" android:key="keyBlock4">
+        <Preference android:key="key41" />
+        <Preference android:key="key42" />
+    </PreferenceCategory>
+</PreferenceScreen>

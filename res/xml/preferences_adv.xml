@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/sett_force_tablet_ui" android:key="forceTabletUI" android:summary="@string/sett_app_restart_required" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/sett_send_by_enter" android:key="sendByEnter" android:summary="@string/sett_send_by_enter_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/sett_compress_photos" android:key="compressPhotos" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/sett_save_processed_image" android:key="saveProcessedImage" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/sett_big_images_mobile" android:key="bigImagesMobile" android:summary="@string/sett_big_images_mobile_summary" android:defaultValue="true" />
+    <ListPreference android:entries="@array/sett_font_size_options" android:title="@string/sett_font_size" android:key="fontSize" android:defaultValue="0" android:dialogTitle="@string/sett_font_size" android:entryValues="@array/sett_font_size_values" />
+    <Preference android:title="@string/sett_clear_img_cache" android:key="clearImageCache" android:summary="" />
+    <Preference android:title="@string/sett_clear_messages_cache" android:key="clearMessagesCache" android:summary="" />
+    <PreferenceCategory android:title="@string/sett_audio_cache" android:key="audioCache">
+        <CheckBoxPreference android:title="@string/enable" android:key="enableAudioCache" android:defaultValue="true" />
+        <ListPreference android:title="@string/sett_cache_location" android:key="audioCacheLocation" android:defaultValue="" android:dialogTitle="@string/sett_cache_location" />
+        <Preference android:title="@string/sett_clear_audio_cache" android:key="clearAudioCache" android:summary="" />
+    </PreferenceCategory>
+</PreferenceScreen>

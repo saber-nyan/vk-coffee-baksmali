@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: VKCoffee_RELEASE_5.32_05092016_01-58-27.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '22'
+sharedLibrary: false
+unknownFiles:
+  builddef.lst: '8'
+  version.txt: '8'
+  isoparser-default.properties: '8'
+  com/android/vending/billing/IInAppBillingService.aidl: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.3
+versionInfo:
+  versionCode: '849'
+  versionName: '5.32'

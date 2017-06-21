@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/contentView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/contentWrap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <me.grishka.appkit.views.UsableRecyclerView android:id="@id/list" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/createNewDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_ab_write" app:layout_behavior="com.vkcoffee.android.ui.widget.ScrollAwareFABBehavior" />
+        </android.support.design.widget.CoordinatorLayout>
+        <include android:layout_gravity="center" android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/appkit_empty" />
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <include android:id="@id/error" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/appkit_error" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/photo" android:layout_alignTop="@id/photo" android:layout_alignBottom="@id/photo">
+        <TextView android:textAppearance="@style/MediumBold" android:textSize="16.0dip" android:textColor="@color/almost_black" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mishk" android:singleLine="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/hint" android:id="@id/status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Online" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/photo" />
+    <TextView android:id="@id/edit_profile" android:text="@string/edit_profile" android:layout_below="@id/divider" style="@style/MaterialListButtonBlue" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vkcoffee.android.ui.widget.AppsItemLayout android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.vkcoffee.android.ui.RoundedImageView2 android:id="@id/app_icon" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/placeholder_game_72dp" app:cornerRadius="2.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/almost_black" android:id="@id/app_title" android:paddingLeft="12.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="12.0dip" android:id="@id/app_bubble" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="0.0dip" android:minHeight="18.0dip" android:text="@string/games_new_caps" style="@style/MaterialBlueButton" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/text_game_light_gray" android:ellipsize="end" android:id="@id/app_subtitle" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lines="2" android:lineSpacingExtra="2.0dip" />
+</com.vkcoffee.android.ui.widget.AppsItemLayout>

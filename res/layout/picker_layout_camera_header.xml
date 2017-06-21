@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_camera" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <FrameLayout android:id="@id/fl_photo_camera" android:layout_width="0.0px" android:layout_height="56.0dip" android:foreground="@drawable/picker_white_ripple_bounded" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_ic_photo_camera_24dp" android:tint="@color/picker_camera_button" />
+                <com.vk.attachpicker.widget.RobotoMediumTextView android:textSize="14.0sp" android:textColor="@color/picker_camera_button" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/picker_photo" android:singleLine="true" android:textAllCaps="true" />
+            </LinearLayout>
+        </FrameLayout>
+        <View android:background="@color/picker_grey_divider" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+        <FrameLayout android:id="@id/fl_video_camera" android:layout_width="0.0px" android:layout_height="56.0dip" android:foreground="@drawable/picker_white_ripple_bounded" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_ic_video_camera_24dp" android:tint="@color/picker_camera_button" />
+                <com.vk.attachpicker.widget.RobotoMediumTextView android:textSize="14.0sp" android:textColor="@color/picker_camera_button" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/picker_video" android:singleLine="true" android:textAllCaps="true" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/tv_empty" android:paddingLeft="72.0dip" android:paddingRight="72.0dip" android:layout_width="fill_parent" android:layout_height="128.0dip" android:text="@string/picker_photo_and_video_not_found" />
+</LinearLayout>

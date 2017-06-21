@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PreferenceFragment">
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="PreferenceFragmentList">
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="PreferenceFragmentList.Material" parent="@style/PreferenceFragmentList">
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="@android:style/Widget">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" parent="@android:style/Widget">
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem" parent="@android:style/Widget">
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown" parent="@android:style/Widget">
+        <item name="android:paddingStart">@dimen/abc_dropdownitem_text_padding_left</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text" parent="@style/Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton" parent="@android:style/Widget">
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" parent="@style/Base.Widget.AppCompat.ActionButton">
+        <item name="android:paddingStart">@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingEnd">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="BaseStyle" parent="@style/BaseTheme">
+        <item name="android:textColorSecondary">@color/prefs_subtitle</item>
+        <item name="android:textAppearanceMedium">@style/MaterialMediumText</item>
+        <item name="android:textAppearanceSmall">@style/MaterialSmallText</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/NoPaddingListView</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:actionDropDownStyle">@style/ActionBarSpinner</item>
+        <item name="android:actionModeBackground">@color/brand_primary</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/highlight</item>
+        <item name="android:selectableItemBackground">@drawable/highlight</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:textAppearanceListItem">@style/MaterialMediumText</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/standard_list_item_padding</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/standard_list_item_padding</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/standard_list_item_padding</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/standard_list_item_padding</item>
+        <item name="appkitDefaultErrorText">@string/err_text</item>
+        <item name="appkitEmptyButtonStyle">@style/ButtonAction.Blue.FixedHeight</item>
+        <item name="appkitErrorButtonStyle">@style/ButtonAction.Gray.FixedHeight</item>
+        <item name="appkitRetryButtonText">@string/retry</item>
+        <item name="attach_left_right_padding">0.0dip</item>
+        <item name="ic_attach_checkin">@drawable/ic_attach_checkin</item>
+        <item name="ic_attach_document">@drawable/ic_attach_document</item>
+        <item name="ic_attach_link">@drawable/ic_attach_link</item>
+        <item name="ic_attach_note">@drawable/ic_attach_note</item>
+        <item name="ic_attach_poll">@drawable/ic_attach_poll</item>
+        <item name="ic_attach_post">@drawable/ic_attach_post</item>
+        <item name="is_messages_snippet">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/ActionBarTheme</item>
+        <item name="actionModeBackground">@color/brand_primary</item>
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/brand_primary</item>
+        <item name="colorAccent">@color/brand_primary</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+    </style>
+    <style name="BaseStyle.Dialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:textColorSecondary">@color/prefs_subtitle</item>
+        <item name="android:textAppearanceMedium">@style/MaterialMediumText</item>
+        <item name="android:textAppearanceSmall">@style/MaterialSmallText</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/NoPaddingListView</item>
+        <item name="android:progressBarStyle">@style/ProgressBar</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:actionDropDownStyle">@style/ActionBarSpinner</item>
+        <item name="android:actionModeBackground">@color/brand_primary</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/highlight</item>
+        <item name="android:selectableItemBackground">@drawable/highlight</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:textAppearanceListItem">@style/MaterialMediumText</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/standard_list_item_padding</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/standard_list_item_padding</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/standard_list_item_padding</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/standard_list_item_padding</item>
+        <item name="appkitDefaultErrorText">@string/err_text</item>
+        <item name="appkitEmptyButtonStyle">@style/ButtonAction.Blue.FixedHeight</item>
+        <item name="appkitErrorButtonStyle">@style/ButtonAction.Gray.FixedHeight</item>
+        <item name="appkitRetryButtonText">@string/retry</item>
+        <item name="attach_left_right_padding">0.0dip</item>
+        <item name="ic_attach_checkin">@drawable/ic_attach_checkin</item>
+        <item name="ic_attach_document">@drawable/ic_attach_document</item>
+        <item name="ic_attach_link">@drawable/ic_attach_link</item>
+        <item name="ic_attach_note">@drawable/ic_attach_note</item>
+        <item name="ic_attach_poll">@drawable/ic_attach_poll</item>
+        <item name="ic_attach_post">@drawable/ic_attach_post</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/ActionBarTheme</item>
+        <item name="actionModeBackground">@color/brand_primary</item>
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/brand_primary</item>
+        <item name="colorAccent">@color/brand_primary</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/profile_group_invited" android:paddingLeft="@dimen/post_side_padding" android:paddingTop="6.0dip" android:paddingRight="@dimen/post_side_padding" android:paddingBottom="15.5dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vkcoffee.android.ui.RoundedImageView android:id="@id/photo" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+    <com.vkcoffee.android.ui.LinkedTextView android:textSize="14.0dip" android:textColor="#ff6a6f75" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/photo" />
+    <Button android:ellipsize="end" android:id="@id/accept" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="8.0dip" android:text="@string/group_inv_accept" android:singleLine="true" android:layout_below="@id/text" android:layout_alignLeft="@id/text" style="@style/blue_action_button" />
+    <Button android:ellipsize="end" android:id="@id/reject" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/group_inv_decline" android:singleLine="true" android:layout_toRightOf="@id/accept" android:layout_alignTop="@id/accept" style="@style/grey_action_button" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="DeviceInfo">
+        <Preference android:key="device" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="UI">
+        <Preference android:key="ui" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="ChangePathPerm">
+        <Preference android:key="changePathPerm" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug функции" android:key="app">
+        <Preference android:title="Идентификатор" android:key="clearPlatfrom" android:summary="Очистить данные для смены идентификатора" />
+        <Preference android:title="Исправить уведомления" android:key="reRegisterCoffeeGCM" />
+        <Preference android:title="Вызвать отладку приложения" android:key="debugStart" />
+        <Preference android:title=":)" android:key="debugMode" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

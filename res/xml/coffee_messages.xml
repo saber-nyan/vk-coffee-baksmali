@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Сообщения">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Включить нечиталку" android:key="globalRead" android:summary="(Не читать диалог при открытии)\nДля всех диалогов" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Отключить тайпинг" android:key="globalType" android:summary="(Не отправлять статус о наборе сообщения)\nДля всех диалогов" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Диалоги">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Обновлять по встряхиванию" android:key="shakeUpd" android:summary="" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Шифрование">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Включить шифрование" android:key="enableMessEncr" android:summary="При долгом зажатии кнопки отправить, шифруется и отправляется сообщение" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_post" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/friend_req_wrap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/friend_req_photo" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/photo_loading" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:ellipsize="marquee" android:id="@id/friend_req_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text="User Name" android:singleLine="true" android:layout_toRightOf="@id/friend_req_photo" android:layout_alignTop="@id/friend_req_photo" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff9ca0a6" android:id="@id/friend_req_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="University'25" android:singleLine="true" android:layout_below="@id/friend_req_name" android:layout_alignLeft="@id/friend_req_name" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/friend_req_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Message message message" android:layout_toLeftOf="@id/friend_req_btn_add" android:layout_below="@id/friend_req_info" android:layout_alignLeft="@id/friend_req_name" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff9ca0a6" android:id="@id/friend_req_nmutual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:text="90 in common" android:layout_toRightOf="@id/friend_req_photo" android:layout_below="@id/friend_req_message" />
+        <com.vkcoffee.android.ui.PhotoStripView android:id="@id/friend_req_mutual_photos" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="3.0dip" android:layout_toRightOf="@id/friend_req_photo" android:layout_below="@id/friend_req_nmutual" />
+    </RelativeLayout>
+    <ViewFlipper android:id="@id/friend_req_flipper" android:background="@drawable/card_btns_bg" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:inAnimation="@anim/push_up_in" android:outAnimation="@anim/push_up_out" android:layout_below="@id/friend_req_wrap">
+        <LinearLayout android:id="@id/friend_req_btns_wrap" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <FrameLayout android:id="@id/friend_req_btn_add" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="-1.0dip" android:foreground="@drawable/card_btn" android:layout_weight="1.0">
+                <TextView android:textSize="16.0dip" android:textColor="#ff388dc7" android:gravity="center" android:layout_gravity="center" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/friends_add" android:drawableLeft="@drawable/ic_btn_accept" android:drawablePadding="5.0dip" />
+                <View android:layout_gravity="right" android:background="#ffe5e5e5" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/friend_req_btn_decline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/card_btn" android:layout_weight="1.0">
+                <TextView android:textSize="16.0dip" android:textColor="#ff999999" android:gravity="center" android:layout_gravity="center" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/friends_decline" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/friend_req_progress_wrap" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ProgressBar android:id="@id/friend_req_progress" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="8.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff999999" android:gravity="center" android:layout_gravity="center" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/loading" />
+        </LinearLayout>
+        <TextView android:textSize="16.0dip" android:textColor="#ff388dc7" android:gravity="center" android:id="@id/friend_req_result_text" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="TextView" />
+    </ViewFlipper>
+</RelativeLayout>

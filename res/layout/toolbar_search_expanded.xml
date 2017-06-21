@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vkcoffee.android.ui.FullWidthLinearLayout android:gravity="center" android:orientation="horizontal" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="16.0dip" android:textColorHint="#99ffffff" android:id="@id/search_input" android:background="@null" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/search" android:singleLine="true" android:layout_weight="1.0" android:inputType="textFilter|textNoSuggestions" android:imeOptions="actionSearch" />
+    <ImageView android:id="@id/search_clear" android:background="?actionBarItemBackground" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_ab_clear" android:scaleType="center" />
+    <ImageView android:id="@id/search_voice" android:background="?actionBarItemBackground" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_ab_voicesearch" android:scaleType="center" />
+</com.vkcoffee.android.ui.FullWidthLinearLayout>

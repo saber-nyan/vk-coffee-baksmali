@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ad_report_reasons">
+        <item>Spam</item>
+        <item>Insulto</item>
+        <item>Conteúdo adulto</item>
+        <item>Fraude</item>
+        <item>Outro</item>
+    </string-array>
+    <string-array name="album_displayable_privacy_options">
+        <item>Todos usuários</item>
+        <item>Somente amigos</item>
+        <item>Amigos e amigos de amigos</item>
+        <item>Somente eu</item>
+    </string-array>
+    <string-array name="album_privacy_options">
+        <item>Todos usuários</item>
+        <item>Somente amigos</item>
+        <item>Amigos e amigos de amigos</item>
+        <item>Somente eu</item>
+        <item>Parâmetros avançados</item>
+    </string-array>
+    <string-array name="attachments_tabs">
+        <item>Fotos</item>
+        <item>Vídeos</item>
+        <item>Músicas</item>
+        <item>Documentos</item>
+        <item>Links</item>
+    </string-array>
+    <string-array name="community_types">
+        <item>Eventos</item>
+        <item>Grupos</item>
+        <item>Páginas</item>
+    </string-array>
+    <string-array name="date_ago_hrs">
+        <item>uma hora atrás</item>
+        <item>duas horas atrás</item>
+        <item>três horas atrás</item>
+    </string-array>
+    <string-array name="dnd_options">
+        <item>1 hora</item>
+        <item>24 horas</item>
+        <item>7 dias</item>
+        <item>Sempre</item>
+    </string-array>
+    <string-array name="edit_bdate_visibility">
+        <item>Mostrar no perfil</item>
+        <item>Mostrar somente o dia &amp; mês</item>
+        <item>Não mostrar no perfil</item>
+    </string-array>
+    <string-array name="edit_relation_f">
+        <item>Não selecionado</item>
+        <item>Solteira</item>
+        <item>Em um relacionamento</item>
+        <item>Noiva</item>
+        <item>Casada</item>
+        <item>Relacionamento Enrolado</item>
+        <item>Sempre Procurando</item>
+        <item>Apaixonada</item>
+    </string-array>
+    <string-array name="edit_relation_m">
+        <item>Não selecionado</item>
+        <item>Solteiro</item>
+        <item>Em um relacionamento</item>
+        <item>Noivo</item>
+        <item>Casado</item>
+        <item>Relacionamento Enrolado</item>
+        <item>Sempre Procurando</item>
+        <item>Apaixonado</item>
+    </string-array>
+    <string-array name="fave_tabs">
+        <item>Pessoas</item>
+        <item>Publicações</item>
+        <item>Links</item>
+        <item>Fotos</item>
+        <item>Vídeos</item>
+        <item>@string/goods</item>
+    </string-array>
+    <string-array name="group_audios_options_descriptions">
+        <item></item>
+        <item>Acesso aberto significa que todos os membros da comunidade podem adicionar novos arquivos de áudio.</item>
+        <item>Acesso limitado significa que somente administradores e editores podem adicionar novos arquivos de áudio.</item>
+    </string-array>
+    <string-array name="group_ban_duration_options">
+        <item>Para sempre</item>
+        <item>Um ano</item>
+        <item>Um mês</item>
+        <item>Uma semana</item>
+        <item>Um dia</item>
+        <item>Uma hora</item>
+    </string-array>
+    <string-array name="group_ban_reasons">
+        <item>Outro</item>
+        <item>Spam</item>
+        <item>Abuso verbal</item>
+        <item>Palavreado inadequado</item>
+        <item>Mensagens irrelevantes</item>
+    </string-array>
+    <string-array name="group_board_options_descriptions">
+        <item></item>
+        <item>Acesso aberto significa que todos os membros da comunidade podem iniciar novas discussões.</item>
+        <item>Acesso limitado significa que somente administradores e editores podem iniciar novas discussões..</item>
+    </string-array>
+    <string-array name="group_docs_options_descriptions">
+        <item></item>
+        <item>Acesso aberto significa que todos os membros da comunidade podem adicionar novos documentos.</item>
+        <item>Acesso limitado significa que somente administradores e editores podem adicionar novos documentos..</item>
+    </string-array>
+    <string-array name="group_photos_options_descriptions">
+        <item></item>
+        <item>Acesso aberto significa que todos os membros da comunidade podem criar novos álbuns.</item>
+        <item>Acesso limitado significa que somente administradores e editores podem criar novos álbuns.</item>
+    </string-array>
+    <string-array name="group_service_options">
+        <item>Desabilitado</item>
+        <item>Aberto</item>
+        <item>Limitado</item>
+    </string-array>
+    <string-array name="group_videos_options_descriptions">
+        <item></item>
+        <item>Acesso aberto significa que todos os membros da comunidade podem adicionar novos vídeos.</item>
+        <item>Acesso limitado significa que somente administradores e editores podem adicionar novos vídeos..</item>
+    </string-array>
+    <string-array name="group_wall_options">
+        <item>Desabilitado</item>
+        <item>Aberto</item>
+        <item>Privado</item>
+        <item>Fechado</item>
+    </string-array>
+    <string-array name="group_wall_options_descriptions">
+        <item></item>
+        <item>Em um mural aberto, todos os membros da comunidade podem deixar comentários e escrever publicações.</item>
+        <item>Em um mural privado, publicações só podem ser feitas em nome da comunidade e todos os membros podem comentá-las.</item>
+        <item>Em um mural fechado, publicações só podem ser feitas em nome da comunidade e todos os comentários estão desabilitados.</item>
+    </string-array>
+    <string-array name="group_wiki_options_descriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="like_menu">
+        <item>Descurtir</item>
+        <item>Compartilhar com amigos</item>
+    </string-array>
+    <string-array name="message_attach_options">
+        <item>Foto</item>
+        <item>Arquivo de áudio</item>
+        <item>Vídeo</item>
+        <item>Documento</item>
+        <item>Mapa</item>
+        <item>@string/gift</item>
+    </string-array>
+    <string-array name="message_attach_options_noplace">
+        <item>Foto</item>
+        <item>Arquivo de áudio</item>
+        <item>Vídeo</item>
+        <item>Documento</item>
+    </string-array>
+    <string-array name="months_full">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosto</item>
+        <item>Setembro</item>
+        <item>Outubro</item>
+        <item>Novembro</item>
+        <item>Dezembro</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Mai</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Out</item>
+        <item>Nov</item>
+        <item>Dez</item>
+    </string-array>
+    <string-array name="ntf_accepted_f">
+        <item>aceitou sua solicitação de amizade</item>
+    </string-array>
+    <string-array name="ntf_accepted_m">
+        <item>aceitou sua solicitação de amizade</item>
+    </string-array>
+    <string-array name="ntf_accepted_x">
+        <item>aceitaram sua solicitação de amizade</item>
+    </string-array>
+    <string-array name="ntf_follow_f">
+        <item>começou a seguir você</item>
+    </string-array>
+    <string-array name="ntf_follow_m">
+        <item>começou a seguir você</item>
+    </string-array>
+    <string-array name="ntf_follow_x">
+        <item>começaram a seguir você</item>
+    </string-array>
+    <string-array name="ntf_like_f">
+        <item>curtiu a publicação</item>
+        <item>curtiu a foto</item>
+        <item>curtiu o vídeo</item>
+        <item>curtiu o comentário</item>
+    </string-array>
+    <string-array name="ntf_like_m">
+        <item>curtiu a publicação</item>
+        <item>curtiu a foto</item>
+        <item>curtiu o vídeo</item>
+        <item>curtiu o comentário</item>
+    </string-array>
+    <string-array name="ntf_like_x">
+        <item>curtiram a publicação</item>
+        <item>curtiram a foto</item>
+        <item>curtiram o vídeo</item>
+        <item>curtiram o comentário</item>
+    </string-array>
+    <string-array name="ntf_rt_f">
+        <item>compartilhou uma publicação</item>
+        <item>compartilhou uma foto</item>
+        <item>compartilhou um vídeo</item>
+        <item>compartilhou um comentário</item>
+    </string-array>
+    <string-array name="ntf_rt_m">
+        <item>compartilhou uma publicação</item>
+        <item>compartilhou uma foto</item>
+        <item>compartilhou um vídeo</item>
+        <item>compartilhou um comentário</item>
+    </string-array>
+    <string-array name="ntf_rt_x">
+        <item>compartilharam uma publicação</item>
+        <item>compartilharam uma foto</item>
+        <item>compartilharam um vídeo</item>
+        <item>compartilharam um comentário</item>
+    </string-array>
+    <string-array name="personal_life_options">
+        <item>Família e filhos</item>
+        <item>Carreira e dinheiro</item>
+        <item>Entretenimento e lazer</item>
+        <item>Ciência e pesquisa</item>
+        <item>Melhorar o mundo</item>
+        <item>Desenvolvimento pessoal</item>
+        <item>Beleza e arte</item>
+        <item>Fama e influência</item>
+    </string-array>
+    <string-array name="personal_people_options">
+        <item>Intelecto e criatividade</item>
+        <item>Gentileza e honestidade</item>
+        <item>Beleza e saúde</item>
+        <item>Influência e riqueza</item>
+        <item>Coragem e persistência</item>
+        <item>Humor e amor pela vida</item>
+    </string-array>
+    <string-array name="personal_politics_options">
+        <item>Comunista</item>
+        <item>Socialista</item>
+        <item>Centrista</item>
+        <item>Liberal</item>
+        <item>Conservador</item>
+        <item>Monarquista</item>
+        <item>Ultraconservador</item>
+        <item>Apático</item>
+        <item>Liberal</item>
+    </string-array>
+    <string-array name="personal_views_options">
+        <item>Muito negativa</item>
+        <item>Negativa</item>
+        <item>Compromedor</item>
+        <item>Neutra</item>
+        <item>Positiva</item>
+    </string-array>
+    <string-array name="photo_menu">
+        <item>Tirar foto</item>
+        <item>Escolher uma foto</item>
+    </string-array>
+    <string-array name="photo_menu2">
+        <item>Tirar foto</item>
+        <item>Escolher uma foto</item>
+        <item>Não anexar</item>
+    </string-array>
+    <string-array name="photo_menu3">
+        <item>Escolher uma foto</item>
+        <item>Não anexar</item>
+    </string-array>
+    <string-array name="post_options">
+        <item>Somente amigos</item>
+        <item>Exportar ao Twitter</item>
+        <item>Exportar ao Facebook</item>
+    </string-array>
+    <string-array name="profile_relation_f">
+        <item>Solteira</item>
+        <item>Em um relacionamento</item>
+        <item>Noiva</item>
+        <item>Casada</item>
+        <item>Relacionamento Enrolado</item>
+        <item>Sempre Procurando</item>
+        <item>Apaixonada</item>
+    </string-array>
+    <string-array name="profile_relation_m">
+        <item>Solteiro</item>
+        <item>Em um relacionamento</item>
+        <item>Noivo</item>
+        <item>Casado</item>
+        <item>Relacionamento Enrolado</item>
+        <item>Sempre Procurando</item>
+        <item>Apaixonado</item>
+    </string-array>
+    <string-array name="profile_relation_pf">
+        <item>Solteira</item>
+        <item>Em relacionamento com %s</item>
+        <item>Noivada com %s</item>
+        <item>Casada com %s</item>
+        <item>Relacionamento enrolado com %s</item>
+        <item>Sempre procurando</item>
+        <item>Apaixonada por %s</item>
+    </string-array>
+    <string-array name="profile_relation_pm">
+        <item>Solteiro</item>
+        <item>Em relacionamento com %s</item>
+        <item>Noivado com %s</item>
+        <item>Casado com %s</item>
+        <item>Relacionamento enrolado com %s</item>
+        <item>Sempre procurando</item>
+        <item>Apaixonado por %s</item>
+    </string-array>
+    <string-array name="public_types">
+        <item>Local ou uma companhia pequena</item>
+        <item>Companhia, organização ou website</item>
+        <item>Celebridade ou grupo</item>
+        <item>Obra ou produto</item>
+        <item>Tipo de página…</item>
+    </string-array>
+    <string-array name="replies_options">
+        <item>Curtir</item>
+        <item>Responder</item>
+    </string-array>
+    <string-array name="report_types">
+        <item>Spam</item>
+        <item>Insulto</item>
+        <item>Conteúdo para adultos</item>
+        <item>Apologia às drogas</item>
+        <item>Pornografia infantil</item>
+        <item>Extremismo/Violencia</item>
+    </string-array>
+    <string-array name="sett_dnd_options">
+        <item>1 hora</item>
+        <item>8 horas</item>
+        <item>24 horas</item>
+    </string-array>
+    <string-array name="sett_font_size_options">
+        <item>Menor</item>
+        <item>Normal</item>
+        <item>Maior</item>
+    </string-array>
+    <string-array name="sett_friends_order">
+        <item>Por nome</item>
+        <item>Por sobrenome</item>
+        <item>Por popularidade</item>
+    </string-array>
+    <string-array name="sett_gif_autoplay_entries">
+        <item>Sempre</item>
+        <item>Somente com Wi-Fi</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="sett_img_cache_location">
+        <item>Cartão SD</item>
+        <item>Cartão de memória</item>
+    </string-array>
+    <string-array name="sett_update_interval_items">
+        <item>30 segundos</item>
+        <item>45 segundos</item>
+        <item>Um minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>Uma hora</item>
+        <item>Duas horas</item>
+        <item>Desabilitar</item>
+    </string-array>
+    <string-array name="short_time">
+        <item> seg</item>
+        <item> min</item>
+        <item> h</item>
+        <item> dia</item>
+        <item> sem</item>
+        <item> mês</item>
+        <item> ano</item>
+    </string-array>
+    <string-array name="video_search_date_options">
+        <item>Por qualquer tempo</item>
+        <item>Por últimas 24 horas</item>
+        <item>Por último mês</item>
+        <item>Por último ano</item>
+    </string-array>
+    <string-array name="video_search_length">
+        <item>Qualquer duração</item>
+        <item>Curto</item>
+        <item>Longo</item>
+    </string-array>
+    <string-array name="video_search_quality">
+        <item>Qualquer definição</item>
+        <item>Somente HD</item>
+    </string-array>
+    <string-array name="video_search_sort_options">
+        <item>Por relevância</item>
+        <item>Por data de adição</item>
+        <item>Por duração</item>
+    </string-array>
+    <string-array name="wall_attach_options">
+        <item>Arquivo de áudio</item>
+        <item>Vídeo</item>
+        <item>Documento</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/picker_ic_undo_24dp" android:alpha="102.0" />
+    </item>
+    <item android:state_enabled="true">
+        <bitmap android:src="@drawable/picker_ic_undo_24dp" />
+    </item>
+</selector>

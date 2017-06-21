@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/standard_list_item_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/standard_list_item_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/MediumBold" android:textSize="14.0dip" android:textColor="#ff8a8a8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/games_group_news" />
+    <TextView android:textAppearance="@style/MediumBold" android:textSize="14.0dip" android:textColor="@color/text_blue" android:gravity="right" android:id="@id/subscribe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/games_group_news_subscribe" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vkcoffee.android.ui.animation.RevealLinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_box" android:paddingLeft="@dimen/quick_search_padding" android:paddingRight="@dimen/quick_search_padding" android:layout_width="fill_parent" android:layout_height="59.0dip">
+        <ImageView android:id="@id/back" android:background="@drawable/highlight_unlimited" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_ab_back" android:scaleType="centerInside" android:tint="#9e00060d" />
+        <EditText android:textSize="16.0dip" android:textColor="#ff2e3033" android:textColorHint="#ffa0a1a3" android:id="@id/query" android:background="@null" android:paddingLeft="28.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/search" android:singleLine="true" android:layout_weight="1.0" android:inputType="textNoSuggestions" />
+        <ImageView android:id="@id/clear" android:background="@drawable/highlight_unlimited" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_search_clear" android:scaleType="centerInside" android:tint="#9e00060d" />
+        <ImageView android:id="@id/voice" android:background="@drawable/highlight_unlimited" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_search_mic" android:scaleType="centerInside" android:tint="#9e00060d" />
+    </LinearLayout>
+    <fragment android:id="@id/search_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" class="com.vkcoffee.android.fragments.search.QuickSearchFragment" />
+</com.vkcoffee.android.ui.animation.RevealLinearLayout>

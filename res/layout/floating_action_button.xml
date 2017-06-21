@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/floating_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_add"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

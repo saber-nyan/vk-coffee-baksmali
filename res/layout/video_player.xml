@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_content_wrap" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextureView android:id="@id/video_display" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/video_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <View android:id="@id/video_end_menu_scrim" android:background="#e6000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/progress" android:background="@drawable/video_btn_bg_up" android:padding="16.0dip" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/video_controls_wrap" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/video_end_menu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/video_end_like" android:background="@drawable/highlight_icon_white" android:layout_width="72.0dip" android:layout_height="64.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/ic_like_36dp" android:scaleType="center" />
+            <ImageView android:id="@id/video_end_share" android:background="@drawable/highlight_icon_white" android:layout_width="72.0dip" android:layout_height="64.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/ic_share_36dp" android:scaleType="center" />
+            <ImageView android:id="@id/video_end_add" android:background="@drawable/highlight_icon_white" android:layout_width="72.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_check_36dp" android:scaleType="center" />
+        </LinearLayout>
+        <android.support.v7.widget.Toolbar android:layout_gravity="top" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/controlbar" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/play_pause" android:background="@drawable/highlight_icon_white" android:layout_width="56.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_play_36dp" android:scaleType="center" />
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginBottom="8.0dip" android:maxHeight="3.0dip" android:progressDrawable="@drawable/progress_video" android:minHeight="3.0dip" android:thumb="@drawable/ic_video_progress_thumb_24dp" android:layout_alignParentBottom="true" />
+                <TextView android:textSize="12.0dip" android:textColor="#99ffffff" android:id="@id/time1" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="0:00" android:singleLine="true" android:layout_above="@id/seekbar" />
+                <TextView android:textSize="12.0dip" android:textColor="#99ffffff" android:gravity="right" android:id="@id/time2" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="0:00" android:singleLine="true" android:layout_above="@id/seekbar" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/resize" android:background="@drawable/highlight_icon_white" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_video_fill_24dp" android:scaleType="center" />
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/quality" android:background="@drawable/highlight_icon_white" android:layout_width="77.0dip" android:layout_height="48.0dip" android:text="1080" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Category">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="func1" android:key="hrHrzm080R9o+BRwCxYbzXfXnv0eQsiGDxEjfX0VS7U=" android:defaultValue="false" />
+        <Preference android:title="func2" android:key="3mkQ73Siyfu2gCaEQpEQkg==" android:summary="" />
+        <Preference android:title="func3" android:key="rSWOElccTClyPjKKNXRSfg==" android:summary="" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="func4" android:key="efh8XUZXKWqfmC1VOBfcHA==" android:summary="" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

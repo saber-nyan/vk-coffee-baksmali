@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Настройки Online">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Быть в Offline" android:key="offline" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Публиковать посты Offline" android:key="postingOffline" android:summary="При публикации используется автоматическая отложенная запись с минимальным временем" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Идентификатор">
+        <Preference android:title="Сменить идентификатор" android:key="selectPlatform" />
+        <Preference android:title="Выбрать идентификатор" android:key="plat" android:summary="Для постоянного онлайна" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Настройки постоянного онлайна">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Постоянный Online" android:key="stayOnlinePref" android:defaultValue="false" />
+        <Preference android:title="Фантомный Online" android:key="phantomOnlinePref" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Строгий режим" android:key="dontSleepOnlSNL" android:summary="Запрещает устройству 'усыплять' процесс, в итоге он работает беспрерывно. Однако, по понятным причинам, при этом повышается расход батареи" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Уведомление о работе" android:key="notificationOnlSNL" android:summary="Позволяет знать, что процесс работает исправно, а так же удобно выключить его" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

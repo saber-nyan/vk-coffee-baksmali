@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_spinner_popup_yoffset">-56.0dip</dimen>
+    <dimen name="_post_side_padding">-32.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">45.000004%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">72.0%</item>
+    <dimen name="abc_search_view_text_min_width">192.0dip</dimen>
+    <item type="dimen" name="gift_category_min_size">@dimen/gift_min_size</item>
+    <dimen name="gift_min_size">128.0dip</dimen>
+    <dimen name="good_description_padding_bottom">19.0dip</dimen>
+    <dimen name="good_description_padding_top">8.0dip</dimen>
+    <dimen name="left_menu_size">84.0dip</dimen>
+    <dimen name="picker_emoji_size">106.0dip</dimen>
+    <dimen name="picker_graffiti_size">250.0dip</dimen>
+    <dimen name="picker_item_size_image">160.0dip</dimen>
+    <dimen name="picker_sticker_size">200.0dip</dimen>
+    <dimen name="post_side_padding">32.0dip</dimen>
+    <dimen name="post_side_padding_btn">16.0dip</dimen>
+    <dimen name="post_side_padding_info">56.0dip</dimen>
+    <dimen name="post_side_padding_menu">20.0dip</dimen>
+    <dimen name="friends_header_padding">12.0dip</dimen>
+    <dimen name="gifts_category_padding">28.0dip</dimen>
+    <dimen name="notification_header_bottom_padding">4.0dip</dimen>
+    <dimen name="notification_header_top_padding">17.0dip</dimen>
+    <item type="dimen" name="notifications_padding">@dimen/post_side_padding</item>
+</resources>

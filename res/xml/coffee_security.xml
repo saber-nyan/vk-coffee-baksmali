@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Pin-код">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Активировать Pin-код" android:key="goSetPinN" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Использовать отпечаток" android:key="finger" android:dependency="goSetPinN" android:defaultValue="false" />
+        <Preference android:title="Время блокировки" android:key="timeLock" android:dependency="goSetPinN" />
+        <Preference android:title="Установить пин-код" android:key="passAppEdit" android:summary="" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Шифрование">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Анонимное шифрование" android:key="anonEncr" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

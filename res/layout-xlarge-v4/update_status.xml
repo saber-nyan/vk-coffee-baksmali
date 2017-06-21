@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/newpost_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" layout="@layout/appkit_toolbar" />
+    <ScrollView android:id="@id/newpost_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/location_bar" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:id="@id/newpost_scroll_content" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="top" android:id="@id/status_text_edit" android:background="#00000000" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:inputType="textCapSentences|textMultiLine" />
+            <com.vkcoffee.android.ui.AttachmentsEditorView android:id="@id/newpost_attachments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+            <TextView android:textAppearance="@style/MediumBold" android:textSize="15.0dip" android:textColor="@color/name" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/attach_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:drawableLeft="@drawable/ic_post_signature" android:drawablePadding="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom|center|right" android:id="@id/location_bar" android:paddingLeft="24.0dip" android:paddingTop="4.0dip" android:paddingRight="24.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/divider">
+        <TextView android:textSize="14.0dip" android:textColor="#ff909499" android:ellipsize="middle" android:id="@id/newpost_location_address" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/newpost_friends_only" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_friends_only_20dp" android:tint="#ffabafb3" />
+        <ImageView android:id="@id/newpost_twitter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_export_twitter_20dp" android:tint="#ffabafb3" />
+        <ImageView android:id="@id/newpost_fb_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_export_facebook_20dp" android:tint="#ffabafb3" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="#26000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/bottom_bar" />
+    <RelativeLayout android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/newpost_btn_location" android:background="@drawable/highlight" android:layout_width="72.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_place_24dp" android:scaleType="center" android:tint="#ffabafb3" android:layout_alignParentLeft="true" />
+        <ImageView android:layout_gravity="left" android:id="@id/newpost_btn_mention" android:background="@drawable/highlight" android:layout_width="72.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_user_24dp" android:scaleType="center" android:tint="#ffabafb3" android:layout_toRightOf="@id/newpost_btn_location" />
+        <ImageView android:id="@id/newpost_btn_photo" android:background="@drawable/highlight" android:layout_width="72.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_camera_24dp" android:scaleType="center" android:tint="#ffabafb3" android:layout_toRightOf="@id/newpost_btn_mention" />
+        <ImageView android:id="@id/newpost_btn_attach" android:background="@drawable/highlight" android:layout_width="72.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_attach_24dp" android:scaleType="center" android:tint="#ffabafb3" android:layout_toRightOf="@id/newpost_btn_photo" />
+        <ImageView android:id="@id/newpost_btn_settings" android:background="@drawable/highlight" android:layout_width="72.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_settings_24dp" android:scaleType="center" android:tint="#ffabafb3" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

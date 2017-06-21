@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.vkcoffee.android" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.vkcoffee.android.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.vkcoffee.android.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.vkcoffee.android.permission.ACCESS_DATA"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <permission android:name="com.vkcoffee.android.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.vkcoffee.android.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <permission android:name="com.vkcoffee.android.permission.ACCESS_DATA" android:protectionLevel="signature"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <application android:hardwareAccelerated="true" android:icon="@drawable/materialCoffee" android:label="VK Coffee" android:largeHeap="true" android:name="com.vkcoffee.android.VKApplication" android:theme="@style/BaseStyle">
+        <meta-data android:name="vk.orm.package" android:value="com.vkcoffee.android.data.orm"/>
+        <meta-data android:name="vk.orm.version" android:value="1"/>
+        <meta-data android:name="vk.orm.db_name" android:value="vk-orm"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAvrvAACdzmgDYFM9hvJS88KdSlQsafID0"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/fb_app_id"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name="net.hockeyapp.android.UpdateActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/NoTitleAndShadow"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.vkcoffee.android.MainActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.vkcoffee.android" android:path="/close" android:scheme="flyme_3dtouch"/>
+                <data android:host="com.vkcoffee.android" android:path="/tost" android:scheme="flyme_3dtouch"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="false" android:icon="@drawable/icon" android:label="@string/app_name" android:name=".Standard" android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@drawable/iconcoffee" android:label="@string/app_name" android:name=".defaultNameVKCoffee" android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@drawable/icon" android:label="VK Coffee" android:name=".VKCoffeeDefaultIcon" android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@drawable/iconcoffee" android:label="VK Coffee" android:name=".VKCoffee" android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:icon="@drawable/materialCoffee" android:label="VK Coffee" android:name=".VKCoffeeMaterial" android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:launchMode="singleTask" android:name="com.vkcoffee.android.PinCodeViewCoffee" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.SplashActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.FragmentWrapperActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/attach_photo" android:name="com.vkcoffee.android.ImagePickerActivity" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/auth" android:name="com.vkcoffee.android.AuthActivity" android:theme="@style/BaseStyle.Registration.Blue" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/search" android:name="com.vkcoffee.android.fragments.search.QuickSearchActivity" android:theme="@style/BaseStyle.NoActionBar" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.RepostActivity" android:theme="@style/TransparentTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.GameCardActivity" android:theme="@style/BaseStyle.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.TabletDialogActivity" android:theme="@style/BaseStyle.PopupIfTablet"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.FragmentDialogActivity" android:theme="@style/BaseStyle.Dialog"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.vkcoffee.android.LinkRedirActivity" android:theme="@style/TranslucentStyle">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="vklink"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="vk.com" android:pathPattern="/.*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="vkontakte.ru" android:pathPattern="/.*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="new.vk.com" android:pathPattern="/.*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="vk.com" android:pathPattern="/.*" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="vkontakte.ru" android:pathPattern="/.*" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="new.vk.com" android:pathPattern="/.*" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="vk.me" android:pathPattern="/.*" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="vk.me" android:pathPattern="/.*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:pathPattern="/.*" android:scheme="vkontakte"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:pathPattern="/.*" android:scheme="vk"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.vkcoffee.android.sendmsg"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.com.vkcoffee.android.profile"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="m.vk.com" android:pathPattern="/.*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.PostPhotoActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/message" android:name="com.vkcoffee.android.ValidationActivity" android:theme="@style/BaseStyle.Registration"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/video" android:name="com.vkcoffee.android.VideoPlayerActivity" android:screenOrientation="sensorLandscape" android:theme="@style/VideoPlayerTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/video" android:name="com.vkcoffee.android.VideoEmbedPlayerActivity" android:screenOrientation="sensorLandscape" android:theme="@style/VideoPlayerTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/video" android:name="com.vkcoffee.android.VideoPlayerProxyActivity" android:process=":flvplayer" android:screenOrientation="sensorLandscape" android:theme="@style/VideoPlayerTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/menu_settings" android:name="com.vkcoffee.android.SettingsAdvancedActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.vkcoffee.android.SendActivity" android:theme="@style/TranslucentStyle">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.WelcomeActivity" android:theme="@style/TransparentTheme">
+            <intent-filter>
+                <action android:name="com.vkcoffee.android.SYNC_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.CaptchaActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.ConfirmationActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/suggest_friends" android:name="com.vkcoffee.android.SuggestionsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/report_content" android:name="com.vkcoffee.android.ReportContentActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.NotificationActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/auth" android:name="com.vkcoffee.android.SDKAuthActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.vkcoffee.android.action.SDK_AUTH"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.vkcoffee.android.sdk.SDKInviteActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/friends" android:name="com.vkcoffee.android.sdk.SDKFriendPickerActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/registration" android:name="com.vkcoffee.android.activities.SignupActivity" android:theme="@style/BaseStyle.Registration" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/forgot_pass" android:name="com.vkcoffee.android.activities.RestoreActivity" android:theme="@style/BaseStyle.Registration"/>
+        <activity android:label="@string/app_name" android:name="com.vkcoffee.android.AudioPlayerActivity" android:theme="@style/BaseStyle.PopupIfTablet"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/change_password" android:name="com.vkcoffee.android.ChangePasswordActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="" android:name="com.vkcoffee.android.BillingActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/sett_news_banned" android:name="com.vkcoffee.android.NewsfeedBanlistActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/wall" android:name="com.vkcoffee.android.TestActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="test" android:scheme="vkontakte"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="ВК - отладка" android:name="com.vkcoffee.android.DebugPrefsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/msg_forward" android:name="com.vkcoffee.android.ForwardMessageActivity">
+            <intent-filter android:label="@string/shortcut_type_title">
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/registration" android:name="com.vkcoffee.android.activities.PhoneVerificationActivity" android:theme="@style/BaseStyle.Registration"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="oauth" android:name="com.vkcoffee.android.TransientAuthActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:label="confirmation" android:name="com.vkcoffee.android.ConfirmActionActivity" android:theme="@style/TranslucentStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.attachpicker.AttachActivity" android:theme="@style/AttachTransparentTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.attachpicker.PhotoVideoAttachActivity" android:theme="@style/PickerPhotoVideoActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.attachpicker.PhotoEditorActivity" android:theme="@style/PickerImageEditorActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.attachpicker.GraffitiActivity" android:screenOrientation="portrait" android:theme="@style/PickerGraffitiActivity"/>
+        <service android:name="com.vkcoffee.android.DownloaderSNL"/>
+        <service android:name="com.vkcoffee.android.OnlineSNL"/>
+        <service android:name="com.vkcoffee.android.StatusSNL"/>
+        <service android:name="com.vkcoffee.android.CrazyTypingSNL"/>
+        <service android:exported="false" android:name="com.vkcoffee.android.LongPollService"/>
+        <service android:name="com.vkcoffee.android.AudioPlayerService"/>
+        <service android:name="com.vkcoffee.android.media.audio.AudioDownloaderIntentService"/>
+        <service android:exported="true" android:name="com.vkcoffee.android.AccountAuthenticatorService" android:process=":auth">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <service android:exported="true" android:name="com.vkcoffee.android.ContactsSyncAdapterService" android:process=":sync">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/sync_contacts"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts_custom_type"/>
+        </service>
+        <service android:name="com.vkcoffee.android.StickerDownloaderService"/>
+        <service android:name="com.vkcoffee.android.upload.UploaderIntentService"/>
+        <service android:name="ru.mail.android.mytracker.campaign.CampaignService"/>
+        <receiver android:name="com.vkcoffee.android.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vkcoffee.android.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/widget_player" android:name="com.vkcoffee.android.PlayerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_player_provider"/>
+        </receiver>
+        <receiver android:label="@string/widget_player_big" android:name="com.vkcoffee.android.PlayerBigWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_player_big_provider"/>
+        </receiver>
+        <receiver android:name="com.vkcoffee.android.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.vkcoffee.android"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vkcoffee.android.BirthdayBroadcastReceiver"/>
+        <receiver android:name="com.vkcoffee.android.DebugBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="555" android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vkcoffee.android.NotificationButtonsReceiver">
+            <intent-filter>
+                <action android:name="com.vkcoffee.android.ACCEPT_FRIEND"/>
+                <action android:name="com.vkcoffee.android.DECLINE_FRIEND"/>
+                <action android:name="com.vkcoffee.android.ACCEPT_GROUP"/>
+                <action android:name="com.vkcoffee.android.DECLINE_GROUP"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="true" android:name="com.vkcoffee.android.PackageAddedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.vkcoffee.android.ConfirmActionBroadcastReceiver"/>
+        <uses-library android:name="com.sec.android.app.multiwindow" android:required="false"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h"/>
+        <meta-data android:name="optimization_key" android:value="lONMnJymOutPww6aDtTpqGS77DtnW6hlwIrhgDPTGGyu+UvR7aR+nf8V4tSiVPyOZXgsTxne0umX209UUetCDGLXYcoMZLz/mNX4osYj/ACdI+6N7zFlO9+4L4vWJhlL59TKmQ3LDPyrd+InYdPl/WYwPBCBeeSMOPXVpUWEQsMH301NstEjSBZv+O0QzeuQS9/Jy94iop4kyFEtDkslfk6DyFEqeBLMA+D34UUhhsjwrwLC9FDtKJFTgSvfWbL0yT8GyNrUlsBlyRFsMUs6VvrMVJ9pft1rFEnn78jsaD8HrAWaIeq+DBjZ1KRokb2OI7U/XP14lbYMpLo4LgvfeQ=="/>
+    </application>
+</manifest>

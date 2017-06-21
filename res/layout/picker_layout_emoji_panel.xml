@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/vp_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="96.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/view_shadow" android:background="@drawable/picker_bg_attach_bottom_toolbar_shadow" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginBottom="96.0dip" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_tabs_container" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="48.0dip" />
+    <com.vk.attachpicker.widget.EditorBottomPanel android:layout_gravity="bottom" android:id="@id/ebp_sticker" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="48.0dip" app:ebp_title="@string/picker_sticker_full" app:ebp_apply_visible="false" />
+</merge>

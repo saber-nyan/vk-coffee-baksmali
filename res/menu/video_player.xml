@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_like_24dp" android:id="@id/like" android:title="@string/like" android:showAsAction="always" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share_24dp" android:id="@id/share" android:title="@string/repost" android:showAsAction="always" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_add_24dp" android:id="@id/add" android:title="@string/add" android:showAsAction="always" app:showAsAction="always" />
+    <item android:id="@id/report" android:title="@string/report_content" android:showAsAction="never" app:showAsAction="never" />
+</menu>

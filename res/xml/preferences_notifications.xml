@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/sett_notifications" android:key="cat_notify">
+        <Preference android:title="@string/chat_dnd" android:key="dnd_hour" android:summary="" />
+        <Preference android:title="@string/sett_dnd_cancel" android:key="dnd_cancel" android:summary="" />
+        <com.vkcoffee.android.ui.RingtonePreference android:title="@string/sett_notify_sound" android:key="notifyRingtone" android:defaultValue="content://settings/system/notification_sound" app:showDefault="true" app:ringtoneType="notification" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_notify_vibrate" android:key="notifyVibrate" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_notify_led" android:key="notifyLED" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.ColorPreference android:title="@string/sett_led_color" android:key="notifyLedColor" android:defaultValue="-1" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_heads_up_notifications" android:key="notifyHeadsUp" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/messages">
+        <Preference android:title="@string/sett_notifications_messages_private" android:key="notifyPrivMessages" />
+        <Preference android:title="@string/sett_notifications_messages_chats" android:key="notifyChatMessages" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/feedback">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_new_posts" android:key="notificationsPosts" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/comments" android:key="notificationsComments" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/mentions" android:key="notificationsMentions" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/replies" android:key="notificationsReplies" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/likes" android:key="notificationsLikes" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_reposts" android:key="notificationsReposts" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sett_other">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_friend_requests" android:key="notificationsFriendRequests" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_group_invites" android:key="notificationsGroupInvites" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/games" android:key="notificationsGames" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_gifts" android:key="notificationsGifts" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_found_friends" android:key="notificationsFoundFriends" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_birthdays" android:key="notificationsBDays" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/sett_upcoming_events" android:key="notificationsUpcomingEvents" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sett_post_subsctiptions">
+        <Preference android:title="@string/sett_post_source_list" android:key="postSubscriptions" android:summary="@string/sett_post_source_list_explain" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

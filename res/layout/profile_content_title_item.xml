@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/MediumBold" android:textSize="14.0dip" android:textColor="@color/almost_black" android:gravity="center_vertical" android:id="@id/text" android:background="@drawable/highlight" android:paddingLeft="@dimen/post_side_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/post_side_padding" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="56.0dip" android:minHeight="40.0dip" android:text="9000 friends" android:singleLine="true" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/MediumBold" android:textSize="14.0dip" android:textColor="#ff5181b8" android:gravity="center" android:id="@id/button" android:background="@drawable/highlight" android:paddingLeft="@dimen/post_side_padding" android:paddingRight="@dimen/post_side_padding" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="56.0dip" android:text="@string/all_albums" />
+</LinearLayout>

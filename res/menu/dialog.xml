@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/chat_attachments" android:title="@string/chat_attachments" />
+    <item android:id="@id/chat_mute" android:title="@string/chat_menu_disable_notifications" />
+    <item android:id="@id/chat_unmute" android:title="@string/chat_menu_enable_notifications" />
+    <item android:id="@id/chat_clear_history" android:title="@string/chat_menu_clear_history" />
+    <item android:id="@id/audio_cache" android:checkable="true" />
+    <item android:id="@id/balance" />
+</menu>

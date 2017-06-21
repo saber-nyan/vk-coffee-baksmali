@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="day_of_week_label_condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="Preference_TextAppearanceMaterialBody2">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Preference_TextAppearanceMaterialSubhead">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="done_button_light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="time_label_thin">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

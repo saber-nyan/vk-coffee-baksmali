@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Обновления">
+        <Preference android:key="inf" />
+        <Preference android:key="update" />
+        <Preference android:title="Список изменений" android:key="viewChangeLog" android:summary="" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Получать тестовые версии" android:key="publicTest" android:summary="При включении данного пункта, Вы имеете возможность получать самые последние версии, которые находятся тестовой ветки обновлений и имеют статус Alpha/Beta/Pre-Release" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

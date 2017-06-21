@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/post_side_padding" android:paddingRight="@dimen/post_side_padding" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/audio_play_pause_icon" android:layout_width="32.0dip" android:layout_height="72.0dip" android:layout_marginRight="16.0dip" android:tint="#ff5181b8" />
+        <ProgressBar android:layout_gravity="center|left" android:id="@id/audio_progress_bar" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="16.0dip" android:max="1000" android:progress="500" android:progressDrawable="@drawable/circular" android:rotation="-90.0" style="?android:attr/progressBarStyleHorizontal" />
+    </FrameLayout>
+    <ImageView android:id="@id/audio_play_icon" android:layout_width="16.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/audio_info_wrap" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="16.0dip" android:textColor="@color/almost_black" android:ellipsize="end" android:id="@id/audio_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="Title" android:singleLine="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/gray" android:ellipsize="end" android:id="@id/audio_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Artist" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/audio_saved_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_music_cached_12dp" android:tint="#ff5181b8" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/gray" android:gravity="center" android:id="@id/audio_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="1:23" android:singleLine="true" />
+</LinearLayout>

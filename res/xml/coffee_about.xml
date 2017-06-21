@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="infCoffee" />
+    <Preference android:icon="@drawable/logo" android:key="goOPERATOR" />
+    <Preference android:icon="@drawable/coffeePub" android:key="pubCoffee" />
+    <Preference android:icon="@drawable/Apidog" android:key="goAPIdog" />
+    <Preference android:icon="@drawable/supportCoffee" android:key="donateInfo" />
+    <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    <PreferenceCategory android:title="Важно знать">
+        <Preference android:key="goFUCKYOU" />
+        <Preference android:key="goPowerModif" />
+    </PreferenceCategory>
+    <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    <PreferenceCategory android:title="Меценаты проекта">
+        <Preference android:key="allDon" />
+    </PreferenceCategory>
+    <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    <PreferenceCategory android:title="Благодарность">
+        <Preference android:key="thnk" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

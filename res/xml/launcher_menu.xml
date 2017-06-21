@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launcher_menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <menu android:title="@string/close" data="flyme_3dtouch://com.vkcoffee.android/close" icon="" />
+    <menu android:title="Тост" data="flyme_3dtouch://com.vkcoffee.android/tost" />
+</launcher_menu>

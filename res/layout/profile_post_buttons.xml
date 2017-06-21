@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/profile_post_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/profile_vertical_divider" android:showDividers="middle" android:dividerPadding="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/profile_add_post" android:background="@drawable/highlight" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/MediumBold" android:textSize="14.0dip" android:textColor="#ff6c737a" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/profile_add_post_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/new_status" android:drawableLeft="@drawable/ic_profile_new_post" android:drawablePadding="12.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/profile_add_photo" android:background="@drawable/highlight" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/MediumBold" android:textSize="14.0dip" android:textColor="#ff6c737a" android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/photo" android:drawableLeft="@drawable/ic_profile_post_photo" android:drawablePadding="12.0dip" />
+    </FrameLayout>
+</LinearLayout>

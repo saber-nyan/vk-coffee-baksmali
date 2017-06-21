@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Визуальные настройки">
+        <Preference android:title="Выбрать язык приложения" android:key="selectLangApp" />
+        <Preference android:title="Выбрать раздел при открытии" android:key="firstStart" />
+        <Preference android:title="Выбрать иконку приложения" android:key="VKCoffee_icon" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Иные анимации" android:key="animVKApp" android:summary="Переходов между окнами" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Покрасить навигационный бар" android:key="colorNavBar" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Счетчик">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Показывать счетчик" android:key="showCount" android:defaultValue="true" />
+        <Preference android:title="Размер шрифта" android:key="fontCount" />
+        <Preference android:title="Учитывание сведений" android:key="selectCount" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Новости">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Показывать рекомендуемых друзей" android:key="recomendedFriends" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Показывать рекламу" android:key="__dbg_no_ads" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Боковое меню (Drawer)">
+        <Preference android:title="Перемещение пунктов" android:key="menuListEdit" />
+        <Preference android:title="Скрыть пункты" android:key="delMenu" />
+        <Preference android:title="Вернуть стандартные настройки" android:key="clearMenSett" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Уменьшить blur" android:key="blurMenu" android:summary="Уменьшение уровня размытия для фото профиля" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="ВНИМАНИЕ!">
+        <Preference android:key="warn" />
+    </PreferenceCategory>
+    <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    <PreferenceCategory android:title="Жесты с боковым меню (Drawer)">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Оптимизированный Swipe" android:key="jeremy" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Проведя по экрану" android:key="menuZone" android:summary="Проведя по экрану (Swipe), открывается меню. В принцип заложено реагирование на жест, отличное решение со стороны програмного кода, однако некоторым пользователям не нравится" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Двойной тап" android:key="doubleTap" android:summary="Открытие меню, два раза тапнув по экрану" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Cдвиг всего содержимого" android:key="normalSwipe" android:summary="При проведении по экрану или двойном тапе, все содержимое сдвигается, как при стабильном Swipe или в официальной версии 3.6. МОЖЕТ ВЫЗВАТЬ 'ПРИТОРМАЖИВАНИЕ'" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

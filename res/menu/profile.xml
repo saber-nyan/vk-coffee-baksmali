@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/invite" android:title="@string/invite_friends" />
+    <item android:icon="@drawable/ic_ab_gift" android:id="@id/gift" android:title="@string/send_gift" android:showAsAction="always" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_ab_write" android:id="@id/edit_profile" android:title="@string/edit_profile" />
+    <item android:icon="@drawable/ic_settings_24dp" android:id="@id/edit_group" android:title="@string/edit_group" android:showAsAction="always" app:showAsAction="always" />
+    <item android:id="@id/subscribe" android:title="@string/subscribe_to_posts" />
+    <item android:id="@id/copy_link" android:title="@string/copy_link" />
+    <item android:id="@id/open_in_browser" android:title="@string/open_in_browser" />
+    <item android:id="@id/block" android:title="@string/block_user" />
+    <item android:id="@id/favorites_add" android:title="@string/favorites_add" />
+    <item android:id="@id/favorites_remove" android:title="@string/favorites_remove" />
+</menu>

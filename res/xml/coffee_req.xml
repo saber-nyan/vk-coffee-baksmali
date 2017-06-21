@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Общая информация">
+        <Preference android:key="inf0" />
+        <Preference android:key="inf1" />
+        <Preference android:key="inf2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="QIWI">
+        <Preference android:key="infQIWI" />
+        <Preference android:key="req1" />
+        <Preference android:key="req2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="WebMoney">
+        <Preference android:key="infWebMoney" />
+        <Preference android:key="wmz" />
+        <Preference android:key="wmr" />
+        <Preference android:key="wmu" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Приват24">
+        <Preference android:key="priv24" />
+        <Preference android:key="card" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Информация о суммах">
+        <Preference android:key="inf3" />
+        <Preference android:key="inf4" />
+        <Preference android:key="inf5" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Подача заявки">
+        <Preference android:key="reqInf" />
+        <Preference android:key="goReq" />
+        <Preference android:key="infAdd" />
+    </PreferenceCategory>
+</PreferenceScreen>

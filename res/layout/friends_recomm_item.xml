@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="212.0dip" android:layout_height="233.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="177.0dip" android:src="@drawable/attach_fb_placeholder_gray" />
+    <View android:background="@drawable/attach_fb_bottom" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_below="@id/photo" />
+    <TextView android:textAppearance="@style/MediumBold" android:textSize="15.0dip" android:textColor="@color/almost_black" android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="Pavel Durov" android:singleLine="true" android:layout_toLeftOf="@id/button" android:layout_below="@id/photo" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff909499" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Over 9000 mutual friends" android:singleLine="true" android:layout_toLeftOf="@id/button" android:layout_below="@id/name" />
+    <ImageView android:id="@id/button" android:background="@drawable/highlight_post" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="4.0dip" android:src="@drawable/ic_recommendations_add_friend" android:scaleType="center" android:layout_below="@id/photo" android:layout_alignParentRight="true" />
+    <ProgressBar android:id="@id/progress" android:padding="10.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignLeft="@id/button" android:layout_alignTop="@id/button" android:layout_alignRight="@id/button" android:layout_alignBottom="@id/button" />
+    <ImageView android:id="@id/button_hide" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_recommendation_hide" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Фотографии">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Показывать в обратном порядке" android:key="photoRev" android:summary="В альбомах фотографии будут показываться от новых к старым" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Видео">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Внешнее проигр. YouTube" android:key="youtube" android:summary="Запуск YouTube приложения, сразу, без предварительного открытия во внутреннем плеере" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Внешнее проигр. источника ВК" android:key="exVideo" android:summary="Проигрывание видео ВК через внешний плеер, на выбор или же через браузер.\nНапример: MX Player" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Внешнее проигр. других источников" android:key="exVideoEX" android:summary="Проигрывание видео иных источников (Vimeo, Coub и т.п) через внешний плеер, на выбор или же через браузер.\nНапример: Chrome" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ссылки">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Обойти away.php" android:key="awayPHP" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

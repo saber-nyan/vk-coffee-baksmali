@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Предупреждение">
+        <Preference android:key="warn" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Пункты">
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/newsfeed" android:key="NEWS" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/feedback" android:key="FEEDBACK" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/messages" android:key="DIALOGS" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/friends" android:key="FRIENDS" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/menu_groups" android:key="GROUPS" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/photos" android:key="PHOTOS" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/videos" android:key="VIDEOS" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/audios" android:key="AUDIOS" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/games" android:key="GAMES" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/fave_title" android:key="FAVE" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="@string/search" android:key="SEARCH" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Режим Offline" android:key="OFFLINE" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Нечиталка" android:key="UNREAD" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Скрытый набор" android:key="UNTYPING" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Закрыть" android:key="CLOSE" android:defaultValue="true" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Заблокировать" android:key="PIN" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

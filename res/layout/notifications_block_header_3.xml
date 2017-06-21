@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.vkcoffee.android.ui.widget.RatioImageView android:id="@android:id/icon" android:layout_width="fill_parent" android:layout_height="100.0dip" android:src="@drawable/image_placeholder" />
+        <ImageButton android:layout_gravity="right" android:id="@android:id/closeButton" android:background="@null" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/banner_close_icon" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/MediumBold" android:textSize="16.0dip" android:textColor="#ff2e3033" android:gravity="center" android:id="@android:id/title" android:paddingLeft="@dimen/post_side_padding" android:paddingTop="16.0dip" android:paddingRight="@dimen/post_side_padding" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff71757a" android:gravity="center" android:id="@android:id/message" android:paddingLeft="@dimen/post_side_padding" android:paddingRight="@dimen/post_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dip" />
+</LinearLayout>

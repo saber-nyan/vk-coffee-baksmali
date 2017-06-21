@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_reply" android:id="@id/reply" android:visible="false" android:title="@string/reply_to" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_ab_forward" android:id="@id/forward" android:title="@string/msg_forward" android:showAsAction="always" />
+    <item android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha" android:id="@id/copy" android:title="@string/copy_text" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_ab_delete" android:id="@id/delete" android:title="@string/delete" android:showAsAction="always" />
+</menu>

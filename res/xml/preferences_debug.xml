@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Домен API" android:key="apiHost" android:defaultValue="api.vk.com" />
+    <EditTextPreference android:title="Домен OAuth" android:key="oauthHost" android:defaultValue="oauth.vk.com" />
+    <CheckBoxPreference android:title="Логирование API" android:key="__dbg_api" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Логирование LongPoll" android:key="__dbg_longpoll" android:defaultValue="false" />
+    <EditTextPreference android:title="Language override" android:key="__dbg_lang_override" />
+    <Preference android:title="Запись логов в файл" android:key="logToFile" android:summary="До полного перезапуска приложения" />
+    <Preference android:title="Завершить процесс" android:key="terminate" />
+    <Preference android:title="Тест уведомления о ДР" android:key="bdayTest" />
+    <Preference android:title="Тест ошибки need_validation" android:key="validationTest" />
+    <Preference android:title="Тест ошибки captcha" android:key="captchaTest" />
+    <Preference android:title="Скопировать БД на /sdcard" android:key="copyDatabases" />
+    <Preference android:title="Скачать все сообщения в кэш" android:key="downloadMessages" />
+    <Preference android:title="Массовое скачивание музыки" android:key="downloadAudio" />
+    <Preference android:title="Очистить хэш 2ФА" android:key="clearTrustedHash" />
+    <Preference android:title="Обновить регистрацию GCM" android:key="reRegisterGCM" />
+    <Preference android:title="Скопировать push token" android:key="copyGcmToken" />
+    <Preference android:title="Обновить Google Now" android:key="reRegisterGoogleNow" />
+    <Preference android:title="Тестовое падение" android:key="testCrash" />
+    <CheckBoxPreference android:title="Отключить рекламу" android:key="__dbg_no_ads" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Невидимка" android:key="invis" android:defaultValue="false" />
+</PreferenceScreen>

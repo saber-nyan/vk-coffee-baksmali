@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Вызов API функций">
+        <Preference android:title="Отправить статус Online" android:key="onlineAPI" />
+        <Preference android:title="Отправить статус Offline" android:key="offlineAPI" android:summary="Так же в offline режиме провоцирует Online на 10 секунд без изменения даты захода" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Info compile">
+        <Preference android:icon="@drawable/logo" android:title="" android:key="goPublic" android:summary="" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

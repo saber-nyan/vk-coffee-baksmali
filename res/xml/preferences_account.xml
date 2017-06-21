@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/group_info">
+        <Preference android:persistent="false" android:title="@string/phone_number" android:key="phone" />
+        <Preference android:persistent="false" android:title="@string/email" android:key="email" />
+        <Preference android:persistent="false" android:title="@string/change_password" android:key="changePassword" />
+        <Preference android:persistent="false" android:title="@string/page_address" android:key="domain" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sett_posts">
+        <com.vkcoffee.android.ui.SummaryListPreference android:entries="@array/sett_posts_default" android:title="@string/sett_posts_default" android:key="onlyMyPosts" android:entryValues="@array/on_off" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:persistent="false" android:title="@string/sett_enable_comments" android:key="enableComments" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sett_other">
+        <Preference android:title="@string/sett_sync" android:key="sync" android:summary="" />
+        <Preference android:title="@string/sett_news_banned" android:key="newsBanned" android:summary="@string/sett_news_banned_summary" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

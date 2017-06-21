@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Аудио">
+        <Preference android:title="Сейчас используется путь" android:key="viewDir" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Использ. иной накопитель" android:key="customDirCh" android:summary="Для хранения кеша аудио" android:defaultValue="false" />
+        <com.vkcoffee.android.ui.MaterialSwitchPreference android:title="Использ. путь  офиц. приложения" android:key="useOficPathCache" android:defaultValue="false" />
+        <Preference android:title="Указать название папки для кэша и аудио" android:key="customDirCoffee" />
+        <com.vkcoffee.android.ui.MaterialSectionDividerPreference />
+    </PreferenceCategory>
+</PreferenceScreen>

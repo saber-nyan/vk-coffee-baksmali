@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="1000.0dip" />
+    <com.vkcoffee.android.ui.widget.ViewPagerInfinite android:id="@id/banners" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/stickers_banner_size" app:nextPeriodSec="3" app:pageMargin="@dimen/game_page_margin" />
+    <FrameLayout android:id="@id/tabs_wrap" android:background="@android:color/white" android:paddingLeft="@dimen/stickers_tabs_padding" android:paddingRight="@dimen/stickers_tabs_padding" android:layout_width="fill_parent" android:layout_height="@dimen/stickers_tabs_size" android:layout_below="@id/banners">
+        <com.astuetz.viewpager.extensions.PagerSlidingTabStrip android:textSize="14.0dip" android:textColor="@color/brand_primary" android:gravity="center_vertical" android:layout_gravity="top" android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="@dimen/stickers_tabs_size" android:minHeight="48.0dip" app:textAllCaps="true" app:indicatorColor="@color/brand_primary" app:underlineColor="#ffd8d8d8" app:dividerColor="@android:color/transparent" app:indicatorHeight="2.0dip" app:underlineHeight="0.5dip" app:shouldExpand="false" app:tabBackground="@drawable/highlight" />
+    </FrameLayout>
+</RelativeLayout>
